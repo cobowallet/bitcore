@@ -61,7 +61,7 @@
     "crypto-browserify": "git://github.com/cobowallet/crypto-browserify.git#master-legacy",
     "asn1.js": "0.4.1",
     "async": "~0.2.10",
-    "bignum": "^0.11.0",
+    "bignum": "0.13.0",
     "binary": "^0.3.0",
     "bindings": "=1.1.1",
     "bn.js": "=1.0.0",
