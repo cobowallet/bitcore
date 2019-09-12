@@ -91,12 +91,12 @@
     "bitcore-build": "bitpay/bitcore-build",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
-    "crypto-browserify": "git://github.com/decred/crypto-browserify.git#master-legacy",
+    "crypto-browserify": "https://github.com/cobowallet/crypto-browserify.git#master-legacy",
     "gulp": "^3.8.10",
     "sinon": "^1.13.0"
   },
   "engines": {
-    "node": "4.2.1",
+    "node": ">=4.2.1",
     "npm": ">=2.0.0"
   },
   "license": "MIT"

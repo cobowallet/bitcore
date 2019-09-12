@@ -1,0 +1,133 @@
+Arguments: 
+  /Users/sora/.nvm/versions/node/v10.13.0/bin/node /Users/sora/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/sora/.yarn/bin:/Users/sora/.config/yarn/global/node_modules/.bin:/Users/sora/.autojump/bin:/Users/sora/.nvm/versions/node/v10.13.0/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/sora/bin/arcanist/bin:/Users/sora/Library/Android/sdk/tools:/Users/sora/Library/Android/sdk/tools/bin:/Users/sora/Library/Android/sdk/platform-tools:/Users/sora/Library/Android/sdk/emulator:/Users/sora/Library/Python/2.7/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://github.com/bitpay/bitcore-build: ETIMEDOUT
+      at Timeout._onTimeout (/Users/sora/.yarn/lib/cli.js:141124:19)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+      at Timer.processTimers (timers.js:223:10)
+
+npm manifest: 
+  {
+    "name": "bitcore-lib",
+    "version": "0.13.16",
+    "description": "A pure and powerful JavaScript Bitcoin library.",
+    "author": "BitPay <dev@bitpay.com>",
+    "main": "index.js",
+    "scripts": {
+      "lint": "gulp lint",
+      "test": "gulp test",
+      "coverage": "gulp coverage",
+      "build": "gulp"
+    },
+    "contributors": [
+      {
+        "name": "Daniel Cousens",
+        "email": "bitcoin@dcousens.com"
+      },
+      {
+        "name": "Esteban Ordano",
+        "email": "eordano@gmail.com"
+      },
+      {
+        "name": "Gordon Hall",
+        "email": "gordon@bitpay.com"
+      },
+      {
+        "name": "Jeff Garzik",
+        "email": "jgarzik@bitpay.com"
+      },
+      {
+        "name": "Kyle Drake",
+        "email": "kyle@kyledrake.net"
+      },
+      {
+        "name": "Manuel Araoz",
+        "email": "manuelaraoz@gmail.com"
+      },
+      {
+        "name": "Matias Alejo Garcia",
+        "email": "ematiu@gmail.com"
+      },
+      {
+        "name": "Ryan X. Charles",
+        "email": "ryanxcharles@gmail.com"
+      },
+      {
+        "name": "Stefan Thomas",
+        "email": "moon@justmoon.net"
+      },
+      {
+        "name": "Stephen Pair",
+        "email": "stephen@bitpay.com"
+      },
+      {
+        "name": "Wei Lu",
+        "email": "luwei.here@gmail.com"
+      }
+    ],
+    "keywords": [
+      "bitcoin",
+      "transaction",
+      "address",
+      "p2p",
+      "ecies",
+      "cryptocurrency",
+      "blockchain",
+      "payment",
+      "bip21",
+      "bip32",
+      "bip37",
+      "bip69",
+      "bip70",
+      "multisig"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/decred/bitcore.git"
+    },
+    "browser": {
+      "request": "browser-request"
+    },
+    "dependencies": {
+      "bn.js": "=2.0.4",
+      "bs58": "=2.0.0",
+      "buffer-compare": "=1.0.0",
+      "elliptic": "=3.0.3",
+      "inherits": "=2.0.1",
+      "lodash": "=3.10.1"
+    },
+    "devDependencies": {
+      "bitcore-build": "bitpay/bitcore-build",
+      "brfs": "^1.2.0",
+      "chai": "^1.10.0",
+      "crypto-browserify": "git://github.com/decred/crypto-browserify.git#master-legacy",
+      "gulp": "^3.8.10",
+      "sinon": "^1.13.0"
+    },
+    "engines": {
+      "node": ">=4.2.1",
+      "npm": ">=2.0.0"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
