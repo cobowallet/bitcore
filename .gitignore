@@ -4,6 +4,7 @@ node_modules
 browser
 build
 docs/api
+.idea
 
 CONTRIBUTING.html
 LICENSE.html
